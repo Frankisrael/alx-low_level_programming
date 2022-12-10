@@ -1,25 +1,19 @@
-/*
- * File: 6-print_numberz.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0,
- *        only using putchar and without char variables.
+ * main - Prints numbers between 0 to 9.
  *
- * Return: Always 0.
+ *    * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0);
-
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
-
 	return (0);
 
 }
