@@ -1,3 +1,1 @@
-INCLUDE main.h;
-
-easy
+deb http://security.ubuntu.com/ubuntu xenial-security main 
